@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Construction Services.</title>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- connect css -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- ----------------------------------------- Navbar Section ---------------------------------------- -->
+    <header id="home">
+        <div>
+            <img src="./images/logo.jpg" alt="" />
+            <h1>BCS</h1>
+        </div>
+        <nav>
+            <ul id="menuList">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+
+            </ul>
+        </nav>
+        <div>
+            <img src="./images/menu.png" alt="menu" id="menuIcon" />
+        </div>
+    </header>
+    <main>
+        <!-- ------------------------------------- slider section------------------------------------------- -->
+        <section class="slider">
+            <!-- first -->
+            <div class="slide">
+                <div class="slide-img">
+                    <img src="./images/slider-image1.jpg" alt="tourImage" />
+                </div>
+                <div class="slide-content">
+                    <p>Build, Renovate, Innovate</p>
+                    <h1>Your Dream</h1>
+                    <h1>Construction</h1>
+                    <a href="#"><button class="btn">Get Started</button></a>
+                </div>
+            </div>
+            <!-- second -->
+            <div class="slide">
+                <div class="slide-img">
+                    <img src="./images/slider-image2.jpg" alt="tourImage" />
+                </div>
+                <div class="slide-content">
+                    <p>Expertise, Quality, Assurance</p>
+                    <h1>Build with</h1>
+                    <h1>Confidence</h1>
+                    <a href="#"><button class="btn">Get Started</button></a>
+                </div>
+            </div>
+            <!-- third -->
+            <div class="slide">
+                <div class="slide-img">
+                    <img src="./images/slider-image3.jpg" alt="tourImage" />
+                </div>
+                <div class="slide-content">
+                    <p>Reliable, Efficient, Professional</p>
+                    <h1>Transformation your</h1>
+                    <h1>space</h1>
+                    <a href="#"><button class="btn">Get Started</button></a>
+                </div>
+            </div>
+            <!-- fourth -->
+            <div class="slide">
+                <div class="slide-img">
+                    <img src="./images/slider-image4.jpg" alt="tourImage" />
+                </div>
+                <div class="slide-content">
+                    <p>Plan, Design, Build"</p>
+                    <h1>Construction</h1>
+                    <h1>Services</h1>
+                    <a href="#"><button class="btn">Get Started</button></a>
+                </div>
+            </div>
+            <!-- five -->
+            <div class="slide">
+                <div class="slide-img">
+                    <img src="./images/slider-image5.jpg" alt="tourImage" />
+                </div>
+                <div class="slide-content">
+                    <p>Innovative, Sustainable, Custom</p>
+                    <h1>Building your</h1>
+                    <h1>future</h1>
+                    <a href="#"><button class="btn">Get Started</button></a>
+                </div>
+            </div>
+            <div class="left-right-btn">
+                <span id="prev" onclick="controller(-1)">&lt</span>
+                <span id="next" onclick="controller(1)">&gt</span>
+            </div>
+        </section>
+
+        <!-- ------------------------------------ service section ------------------------------------------ -->
+        <section class="service container" id="service">
+            <div class="heading-content">
+                <h1>Our Service</h1>
+                <div><span></span><span></span></div>
+            </div>
+            <div class="service-content">
+                <div>
+                    <img src="./images/service1.jpeg" alt="" />
+                    <h2>Project Planning and Design</h2>
+                    <p>
+                        Provide services for creating detailed project plans and designs,
+                        including architectural drawings and blueprints.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service2.jpeg" alt="" />
+                    <h2>Construction Management</h2>
+                    <p>
+                        Offer comprehensive management of construction projects,
+                        overseeing timelines, budgets, and quality control.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service3.jpeg" alt="" />
+                    <h2>Labor and Workforce</h2>
+                    <p>
+                        Connect clients with skilled laborers, contractors, and workers
+                        for various construction tasks.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service4.jpeg" alt="" />
+                    <h2>Material Supply</h2>
+                    <p>
+                        Facilitate the supply of construction materials such as cement,
+                        bricks, wood, and other necessary supplies.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service5.jpeg" alt="" />
+                    <h2>Equipment Rental</h2>
+                    <p>
+                        Provide rental services for construction equipment like cranes,
+                        excavators, and other machinery.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service6.jpeg" alt="" />
+                    <h2>Post-Construction Services</h2>
+                    <p>
+                        Offer services for finishing touches, such as painting, flooring,
+                        and landscaping, to ensure the project is completed to the
+                        client's satisfaction.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------ Why us section ------------------------------------------ -->
+        <section class="whyUs">
+            <div class="heading-content" style="padding-left: 10%; padding-right: 10%">
+                <h1>Why choose us</h1>
+                <div><span></span><span></span></div>
+            </div>
+            <div class="whyUs-content container" style="background-color: #686de0">
+                <div class="whyUs-content-left">
+                    <!-- top -->
+                    <div class="whyUs-content-left-content">
+                        <div>
+                            <span><img src="./images/whyUs1.png" alt="" /></span>
+                            <span>
+                                <h3>Comprehensive Project Management</h3>
+                                <p>
+                                    End-to-end management ensures timely, budget-friendly
+                                    completion, overseeing every detail.
+                                </p>
+                            </span>
+                        </div>
+                        <hr class="hr-styled" />
+                    </div>
+                    <!-- middle -->
+                    <div class="whyUs-content-left-content">
+                        <div>
+                            <span><img src="./images/whyUs2.png" alt="" /></span>
+                            <span>
+                                <h3>Comprehensive Project Management</h3>
+                                <p>
+                                    End-to-end management ensures timely, budget-friendly
+                                    completion, overseeing every detail.
+                                </p>
+                            </span>
+                        </div>
+                        <hr class="hr-styled" />
+                    </div>
+                    <!-- bottom -->
+                    <div class="whyUs-content-left-content">
+                        <div>
+                            <span><img src="./images/whyUs3.png" alt="" /></span>
+                            <span>
+                                <h3>Comprehensive Project Management</h3>
+                                <p>
+                                    End-to-end management ensures timely, budget-friendly
+                                    completion, overseeing every detail.
+                                </p>
+                            </span>
+                        </div>
+                        <hr class="hr-styled" />
+                    </div>
+                </div>
+                <div class="whyUs-content-center"></div>
+                <div class="whyUs-content-right">
+                    <!-- top -->
+                    <div class="whyUs-content-right-content">
+                        <hr class="hr-styled" />
+                        <div>
+                            <span><img src="./images/whyUs4.png" alt="" /></span>
+                            <span>
+                                <h3>Comprehensive Project Management</h3>
+                                <p>
+                                    End-to-end management ensures timely, budget-friendly
+                                    completion, overseeing every detail.
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- middle -->
+                    <div class="whyUs-content-right-content">
+                        <hr class="hr-styled" />
+                        <div>
+                            <span><img src="./images/whyUs5.png" alt="" /></span>
+                            <span>
+                                <h3>Comprehensive Project Management</h3>
+                                <p>
+                                    End-to-end management ensures timely, budget-friendly
+                                    completion, overseeing every detail.
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- bottom -->
+                    <div class="whyUs-content-right-content">
+                        <hr class="hr-styled" />
+                        <div>
+                            <span><img src="./images/whyUs6.png" alt="" /></span>
+                            <span>
+                                <h3>Comprehensive Project Management</h3>
+                                <p>
+                                    End-to-end management ensures timely, budget-friendly
+                                    completion, overseeing every detail.
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------ our featured work  (White background and scale)------------------------------------------ -->
+
+        <section class="ourFeaturedWork" id="featured">
+            <div class="overlays"></div>
+            <div class="heading-content" style="padding-left: 10%; padding-right: 10%">
+                <h1>Our Featured Work</h1>
+                <div><span></span><span></span></div>
+            </div>
+            <div class="parallex-container">
+                <div class="overlays"></div>
+                <div class="ourFeatureWork-content container">
+                    <!-- first -->
+                    <div class="ourFeatureWork-content-box">
+                        <div>
+                            <img src="./images/featured1.jpeg" alt="" />
+                        </div>
+                        <div>
+                            <span>
+                                <h2>Luxury Residential Homes</h2>
+                                <p>
+                                    Crafted beautiful custom homes tailored to client
+                                    specifications. Our projects reflect quality, elegance, and
+                                    attention to detail, providing dream homes for families.
+                                </p>
+                            </span>
+                            <span>
+                                <img src="./images/downArrow.png" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                    <!-- second -->
+                    <div class="ourFeatureWork-content-box">
+                        <div>
+                            <img src="./images/featured2.jpeg" alt="" />
+                        </div>
+                        <div>
+                            <span>
+                                <h2>Commercial Office Buildings</h2>
+                                <p>
+                                    Designed and constructed modern office spaces that enhance
+                                    productivity and aesthetics. Our commercial projects offer
+                                    functional and stylish environments for businesses to
+                                    thrive.
+                                </p>
+                            </span>
+                            <span>
+                                <img src="./images/downArrow.png" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                    <!-- third -->
+                    <div class="ourFeatureWork-content-box">
+                        <div>
+                            <img src="./images/featured3.jpeg" alt="" />
+                        </div>
+                        <div>
+                            <span>
+                                <h2>Renovation and Remodeling</h2>
+                                <p>
+                                    Transformed outdated spaces into modern, efficient areas.
+                                    Our renovation projects combine innovation and practicality
+                                    to breathe new life into old structures.
+                                </p>
+                            </span>
+                            <span>
+                                <img src="./images/downArrow.png" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                    <!-- fourth -->
+                    <div class="ourFeatureWork-content-box">
+                        <div>
+                            <img src="./images/featured4.jpeg" alt="" />
+                        </div>
+                        <div>
+                            <span>
+                                <h2>Eco-Friendly and Sustainable Construction</h2>
+                                <p>
+                                    Focused on green building practices, our eco-friendly
+                                    projects prioritize sustainability and energy efficiency,
+                                    contributing to a healthier environment.
+                                </p>
+                            </span>
+                            <span>
+                                <img src="./images/downArrow.png" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                    <!-- fifth -->
+                    <div class="ourFeatureWork-content-box">
+                        <div>
+                            <img src="./images/featured5.jpeg" alt="" />
+                        </div>
+                        <div>
+                            <span>
+                                <h2>Industrial Facilities</h2>
+                                <p>
+                                    Built robust and efficient industrial facilities, including
+                                    warehouses and factories. Our projects ensure functionality
+                                    and durability, catering to various industrial needs.
+                                </p>
+                            </span>
+                            <span>
+                                <img src="./images/downArrow.png" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                    <!-- sixth -->
+                    <div class="ourFeatureWork-content-box">
+                        <div>
+                            <img src="./images/featured6.jpeg" alt="" />
+                        </div>
+                        <div>
+                            <span>
+                                <h2>High-End Interior Design</h2>
+                                <p>
+                                    Delivered luxurious interior designs for residential and
+                                    commercial spaces. Our interior projects blend aesthetics
+                                    with comfort, creating stylish and welcoming environments.
+                                </p>
+                            </span>
+                            <span>
+                                <img src="./images/downArrow.png" alt="" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ============================ Booking construction service ========================================== -->
+
+        <section class="booking" id="booking">
+            <div class="heading-content" style="padding-left: 10%; padding-right: 10%">
+                <h1>Booking</h1>
+                <div><span></span><span></span></div>
+            </div>
+            <!-- form  -->
+            <div class="booking-content container">
+                <form id="bookingForm" method="POST">
+                    <!-- name and email -->
+                    <div class="input-box">
+                        <div>
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter full name" />
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter email address" />
+                        </div>
+                    </div>
+
+                    <!-- phone and service required -->
+                    <div class="input-box">
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <input type="number" id="phone" name="phone" required placeholder="Enter phone number " />
+                        </div>
+                        <div>
+                            <label for="service">Service Required:</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select</option>
+                                <option value="residential-construction">
+                                    Residential Construction
+                                </option>
+                                <option value="commercial-construction">
+                                    Commercial Construction
+                                </option>
+                                <option value="renovation">Renovation</option>
+                                <option value="eco-friendly">
+                                    Eco-Friendly Construction
+                                </option>
+                                <option value="industrial">Industrial Facilities</option>
+                                <option value="interior-design">Interior Design</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- date and budget -->
+                    <div class="input-box">
+                        <div>
+                            <label for="date">Preferred Start Date:</label>
+                            <input type="date" id="date" name="date" required />
+                        </div>
+                        <div>
+                            <label for="budget">Estimated Budget (USD):</label>
+                            <input type="number" id="budget" name="budget" required
+                                placeholder="Enter estimated budget" />
+                        </div>
+                    </div>
+                    <!-- details -->
+                    <div class="input-box details">
+                        <label for="details">Project Details:</label>
+                        <textarea id="details" name="details" required placeholder="Enter project details"></textarea>
+                    </div>
+                    <!-- location -->
+                    <div class="input-box address">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" required placeholder="Enter address"></textarea>
+                    </div>
+                    <div class="input-box">
+                        <button type="submit">Submit Booking</button>
+                    </div>
+                </form>
+                <div id="notification" class="hidden">Form submitted successfully!</div>
+            </div>
+        </section>
+
+        <!--  ------------------------------------ review ------------------------------------------ -->
+        <section class="review container" id="review">
+            <div class="heading-content">
+                <h1>Reviews</h1>
+                <div><span></span><span></span></div>
+            </div>
+            <div class="review-content swiper">
+                <ul class="swiper-wrapper">
+                    <!-- first -->
+                    <li class="swiper-slide">
+                        <img src="./images/review1.png" alt="" />
+                        <h2>John Smith</h2>
+                        <p>
+                            "They did such a great job and were quick and efficient. Also,
+                            our backyard is cleaner now than it was before they came! We
+                            would definitely recommend them to anyone looking to have their
+                            roof replaced."
+                        </p>
+                    </li>
+
+                    <!-- second -->
+                    <li class="swiper-slide">
+                        <img src="./images/review2.png" alt="" />
+                        <h2>Emily Johnson</h2>
+                        <p>
+                            "We used them to replace our roof as well as to extend the
+                            roof-line over an expanded patio addition. The team did a great
+                            job, showed up on time, worked hard, cleaned up, and completed
+                            the projects quickly and as scheduled."
+                        </p>
+                    </li>
+
+                    <!-- third -->
+                    <li class="swiper-slide">
+                        <img src="./images/review3.png" alt="" />
+                        <h2>Michael Brown</h2>
+                        <p>
+                            "They have done a wonderful job each time they have worked on
+                            our home. Their employees are always on time, professional, and
+                            work hard to get the job done in a timely manner. I highly
+                            recommend them for roofing or general repair/construction
+                            needs."
+                        </p>
+                    </li>
+
+                    <!-- fourth -->
+                    <li class="swiper-slide">
+                        <img src="./images/review4.png" alt="" />
+                        <h2>Sarah Davis</h2>
+                        <p>
+                            "Top-notch professionals! They kept everything on track and were
+                            great to work with. This is the roofer everyone needs when
+                            working with an insurance company. They knew exactly what
+                            documents they needed to move the claim forward."
+                        </p>
+                    </li>
+
+                    <!-- fifth -->
+                    <li class="swiper-slide">
+                        <img src="./images/review5.png" alt="" />
+                        <h2>Jessica Martinez</h2>
+                        <p>
+                            "After asking friends and looking through reviews, I contacted
+                            them to look at my roof. The owner walked me through the
+                            process, took over dealing with the insurance company, and kept
+                            me in the loop every step of the way. Installation went well,
+                            and the crew was attentive and courteous."
+                        </p>
+                    </li>
+
+                    <!-- sixth -->
+                    <li class="swiper-slide">
+                        <img src="./images/review6.png" alt="" />
+                        <h2>David Wilson</h2>
+                        <p>
+                            "Amazing service received on our plumbing and remodel project.
+                            If you want a company that will stand by you while working
+                            through insurance repairs, this is the company to call! They
+                            were easy to work with and did a fantastic job."
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <!--  ------------------------------------ footer ------------------------------------------ -->
+        <section class="footer" id="footer">
+            <div class="footer-content container">
+                <div class="footer-content-box">
+                    <div>
+                        <img src="./images/logo.jpg" alt="" />
+                        <h1>BCS</h1>
+                    </div>
+                    <p>
+                        "Transforming your construction dreams into reality with
+                        precision, efficiency, and expert craftsmanship. Book our top-tier
+                        services today and experience unmatched quality and
+                        professionalism in every project. Your vision, our commitment –
+                        building a better future, one project at a time."
+                    </p>
+                </div>
+                <div class="footer-content-box">
+                    <h2>Important Links</h2>
+                    <ul class="links-hours">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Booking</a> </li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content-box">
+                    <h2>Office Hours</h2>
+                    <ul class="links-hours">
+                        <li>Monday : 9:00am - 9:00pm</li>
+                        <li>Tuesday : 9:00am - 9:00pm</li>
+                        <li>Wednesday : 9:00am - 9:00pm</li>
+                        <li>Thursday : 9:00am - 9:00pm</li>
+                        <li>Friday : 9:00am - 9:00pm</li>
+                        <li>Saturday : 9:00am - 9:00pm</li>
+                        <li>Sunday : 10:00am - 8:00pm</li>
+                    </ul>
+                </div>
+                <div class="footer-content-box">
+                    <h2>Contact Us</h2>
+                    <ul class="contact-box">
+                        <li>
+                            <span>
+                                <img src="./images/contact1.png" alt="" />
+                            </span>
+                            <span>+91 123-456-7890</span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/contact2.png" alt="" />
+                            </span>
+                            <span>bcs@gmail.com</span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/contact3.png" alt="" />
+                            </span>
+                            <span>Bihar, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right container">
+                <hr class="footer-hr" />
+                <p>&copy; <span id="currYear"></span> Booking Construction Service. All rights reserved.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- adding javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- <form action="/api/bookings" method="POST">
+        <input type="text" name="name" required>
+        <input type="submit" value="submit">
+    </form> -->
